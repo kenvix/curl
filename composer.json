@@ -3,6 +3,7 @@
     "description": "A very lite and high compatibility but powerful curl class(especially you're processing http headers and cookies). No dependence.",
     "type": "library",
     "license": "MIT",
+    "version": "1.0",
     "repositories" : [{
         "type" : "vcs",
         "url" : "https://github.com/kenvix/curl.git"
@@ -17,7 +18,7 @@
 		"psr-4" : {
 			"Kenvix\\curl\\" : "src/"
 		}
-	},
-    "minimum-stability": "stable",
+    },
+    "keywords" : [ "curl" ],
     "require": {}
 }
