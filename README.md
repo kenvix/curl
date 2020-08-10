@@ -11,9 +11,9 @@ Or:
 ```php
 \Kenvix\curl\curl::xget("https://bing.com/");
 ```
-You can also:
+You **can't**:
 ```php
-echo new \Kenvix\curl\curl("https://bing.com/");
+echo new \Kenvix\curl\curl("https://bing.com/"); //Will always print a description
 ```
 ### POST
 ```php
