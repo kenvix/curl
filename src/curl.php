@@ -43,11 +43,11 @@ class curl {
     }
 
     /**
-     * 当wcurl类被当成字符串时的操作:执行curl并返回结果
+     * 当wcurl类被当成字符串时的操作: 显示调试信息
      * @return string 返回值
      */
     public function __toString() {
-        return $this->exec();
+        return "Curl request builder (redirected $redirectCounter times)";
     }
 
     /**
